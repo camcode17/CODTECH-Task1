@@ -10,6 +10,9 @@
 
 ### Project: Personal Portfolio Website
 
+![output Screenshot](https://github.com/user-attachments/assets/a4c14446-c7ff-4d42-8832-d0b961b08faf)
+
+
 ### Purpose:
 The main goal of this project is to present your brand, professional experience, skills, and projects in a visually appealing and organized way. It serves as a digital resume and portfolio that potential employers or clients can visit.
 
