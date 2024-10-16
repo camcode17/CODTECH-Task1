@@ -1,0 +1,128 @@
+/* */
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>   
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Welcome to my portfolio! I'm Ayushi, a 20-year-old student from India and a web developer skilled in front-end and back-end development...</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project 1: To - do list</h3>
+                    <p>a simple to-do list app built with HTML, CSS, and JavaScript, which allows users to add, remove, and mark tasks as completed.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2: Tic-tac-toe</h3>
+                    <p>a tic-tac-toe game built with HTML, CSS, and JavaScript, which allows two players to play against each other.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3: Text to speech converter</h3>
+                    <p>a text-to-speech converter built with HTML, CSS, and JavaScript, which converts the typed text into speech using the Web Speech API.</p>
+                </div>
+   
+                <!-- Add more projects -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Python</li>
+                <!-- Add more skills -->
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Connect with me:</p>
+        <a href="https://github.com/camcode17" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ayushivasanad222/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <p>© 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <script>
+        const form = document.querySelector('form');
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+    
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+    
+            if (name && email && message) {
+                alert('Thank you for your message!');
+                form.reset();
+            } else {
+                alert('Please fill out all fields.');
+            }
+        });
+    </script>
+    
+    
+    
+</body>
+</html>
