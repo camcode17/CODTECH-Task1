@@ -1,8 +1,8 @@
-**Name:** AYUSHI M VASANAD
-**Company:** CODTECH IT SOLUTIONS
-**ID:** CT08DS9044
-**Domain:** Frontend Web Development
-**Duration:** October to November 2024
+- **Name:** AYUSHI M VASANAD
+- **Company:** CODTECH IT SOLUTIONS
+- **ID:** CT08DS9044
+- **Domain:** Frontend Web Development
+- **Duration:** October to November 2024
 
 
 
