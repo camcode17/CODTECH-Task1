@@ -28,7 +28,6 @@ The main goal of this project is to present your brand, professional experience,
   ### Technology Used:
 - **HTML:** Used for the structure and content of the website.
 - **CSS3:** Used to style the layout, colors, fonts, and responsiveness of the site.
-- **JavaScript:** Adds interactive features like smooth scrolling and form validation.
 - **Flexbox:** Applied for a responsive and flexible layout, ensuring the site adjusts smoothly across different device sizes.
 - **Font Awesome:** For adding social media icons in the footer.
 - **Google Fonts:** Adds custom fonts to improve typography.
